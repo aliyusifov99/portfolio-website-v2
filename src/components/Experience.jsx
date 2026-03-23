@@ -37,17 +37,9 @@ function ExperienceCard({ exp, index }) {
           </div>
         </div>
 
-        <ul className="space-y-2 mt-4">
-          {exp.bullets.map((bullet, i) => (
-            <li
-              key={i}
-              className="flex gap-2 text-sm text-dark-600 dark:text-dark-300"
-            >
-              <span className="text-primary-500 mt-1 shrink-0">&bull;</span>
-              {bullet}
-            </li>
-          ))}
-        </ul>
+        <p className="mt-4 text-sm text-dark-600 dark:text-dark-300">
+          {exp.description}
+        </p>
       </div>
     </div>
   );

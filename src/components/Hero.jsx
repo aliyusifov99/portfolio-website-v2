@@ -21,10 +21,6 @@ export default function Hero() {
               {personalInfo.name}
             </span>
           </h1>
-          <p className="text-lg text-dark-500 dark:text-dark-400 max-w-lg mb-8 animate-fade-in-up animation-delay-200">
-            {personalInfo.bio}
-          </p>
-
           <div className="flex flex-wrap items-center gap-4 animate-fade-in-up animation-delay-400">
             <a
               href={personalInfo.resume}
