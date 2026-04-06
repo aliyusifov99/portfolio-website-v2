@@ -37,9 +37,6 @@ function ExperienceCard({ exp, index }) {
           </div>
         </div>
 
-        <p className="mt-4 text-sm text-dark-600 dark:text-dark-300">
-          {exp.description}
-        </p>
       </div>
     </div>
   );

@@ -16,40 +16,30 @@ export const experiences = [
     location: "Poland",
     role: "Data Engineer",
     period: "Jan 2026 – Present",
-    description:
-      "Migrating legacy SAS codebase to PySpark and building end-to-end data pipelines using Prophecy for streamlined transformation and orchestration.",
   },
   {
     company: "Union Bank of Switzerland",
     location: "Poland",
     role: "Data Engineer",
     period: "Nov 2024 – Dec 2025",
-    description:
-      "Designed data pipelines with Python, Spark, Airflow, and SQL within the Evidence Lab Team to support advanced analytical initiatives.",
   },
   {
     company: "LTIMindtree (Microsoft)",
     location: "Poland",
     role: "Azure Cloud Support Engineer",
     period: "Apr 2024 – Oct 2024",
-    description:
-      "Built ML pipelines in Azure ML Studio and supported 100+ customers in deploying chatbots.",
   },
   {
     company: "Axel Cyber LLC",
     location: "Remote",
     role: "AI Engineer",
     period: "Nov 2023 – Apr 2024",
-    description:
-      "Built LangChain chatbots boosting client workflow speed by 35% and a churn prediction model reducing churn by 15%.",
   },
   {
     company: "Risehill Energy Solution",
     location: "Malaysia",
     role: "Junior Data Scientist",
     period: "May 2022 – Oct 2023",
-    description:
-      "Developed fluid production forecasting models using PCA and accelerated data preparation by 50% with PySpark.",
   },
 ];
 
