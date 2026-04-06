@@ -76,7 +76,11 @@ function CertCard({ cert, index }) {
       className="reveal"
       style={{ transitionDelay: `${index * 150}ms` }}
     >
-      <div className="bg-white dark:bg-dark-800/50 rounded-2xl border border-dark-100 dark:border-dark-700 overflow-hidden hover:shadow-xl hover:border-primary-300 dark:hover:border-primary-600 transition-all h-full flex flex-col items-center text-center p-8">
+      <a
+        href={cert.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white dark:bg-dark-800/50 rounded-2xl border border-dark-100 dark:border-dark-700 overflow-hidden hover:shadow-xl hover:border-primary-300 dark:hover:border-primary-600 transition-all h-full flex flex-col items-center text-center p-8">
         <div className="mb-4">
           <AzureLogo />
         </div>
@@ -89,7 +93,7 @@ function CertCard({ cert, index }) {
         <p className="text-sm text-dark-500 dark:text-dark-400">
           Issued {cert.date}
         </p>
-      </div>
+      </a>
     </div>
   );
 }
