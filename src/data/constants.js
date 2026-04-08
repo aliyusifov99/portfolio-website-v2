@@ -52,7 +52,7 @@ export const skillCategories = [
   {
     name: "Data Engineering & Orchestration",
     icon: "Database",
-    skills: ["Apache Spark", "Apache Airflow", "Apache Hadoop", "Prophecy", "Delta Lake", "dbt"],
+    skills: ["Apache Spark", "Databricks", "Apache Airflow", "Apache Hadoop", "Prophecy", "Delta Lake", "dbt"],
   },
   {
     name: "Data Analysis & Statistical Methods",
