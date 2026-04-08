@@ -69,17 +69,11 @@ function AzureLogo() {
 
 function DatabricksLogo() {
   return (
-    <svg
-      viewBox="0 0 96 96"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-12 h-12"
-    >
-      <polygon points="48,6 88,28 88,68 48,90 8,68 8,28" fill="#FF3621" />
-      <polygon points="48,18 76,33 76,63 48,78 20,63 20,33" fill="#FFFFFF" opacity="0.15" />
-      <polygon points="48,22 72,36 72,60 48,74 24,60 24,36" fill="#FF3621" />
-      <polygon points="48,30 65,40 65,56 48,66 31,56 31,40" fill="#FFFFFF" />
-      <polygon points="48,36 60,43 60,53 48,60 36,53 36,43" fill="#FF3621" />
-    </svg>
+    <img
+      src="/databricks-logo.png"
+      alt="Databricks"
+      className="w-12 h-12 object-contain"
+    />
   );
 }
 
