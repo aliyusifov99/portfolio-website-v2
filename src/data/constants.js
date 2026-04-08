@@ -171,15 +171,24 @@ export const education = [
 
 export const certifications = [
   {
+    name: "Databricks Certified Data Engineer Associate",
+    date: "April 2026",
+    badge: "DE Associate",
+    provider: "databricks",
+    url: "https://credentials.databricks.com/520daf19-9798-426f-8db8-1d7e326451c7#acc.wnJLkqj9",
+  },
+  {
     name: "Microsoft Certified: Azure Data Fundamentals",
     date: "May 2025",
     badge: "DP-900",
+    provider: "azure",
     url: "https://learn.microsoft.com/en-gb/users/aliyusifov-9282/credentials/74f23950aaac0058?ref=https%3A%2F%2Fwww.linkedin.com%2F",
   },
   {
     name: "Microsoft Certified: Azure AI Fundamentals",
     date: "May 2024",
     badge: "AI-900",
+    provider: "azure",
     url: "https://learn.microsoft.com/en-us/users/aliyusifov-9282/credentials/3fb0633324d5b928?ref=https%3A%2F%2Fwww.linkedin.com%2F",
   },
 ];

@@ -67,6 +67,27 @@ function AzureLogo() {
   );
 }
 
+function DatabricksLogo() {
+  return (
+    <svg
+      viewBox="0 0 96 96"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-12 h-12"
+    >
+      <polygon points="48,6 88,28 88,68 48,90 8,68 8,28" fill="#FF3621" />
+      <polygon points="48,18 76,33 76,63 48,78 20,63 20,33" fill="#FFFFFF" opacity="0.15" />
+      <polygon points="48,22 72,36 72,60 48,74 24,60 24,36" fill="#FF3621" />
+      <polygon points="48,30 65,40 65,56 48,66 31,56 31,40" fill="#FFFFFF" />
+      <polygon points="48,36 60,43 60,53 48,60 36,53 36,43" fill="#FF3621" />
+    </svg>
+  );
+}
+
+function CertLogo({ provider }) {
+  if (provider === "databricks") return <DatabricksLogo />;
+  return <AzureLogo />;
+}
+
 function CertCard({ cert, index }) {
   const ref = useReveal();
 
@@ -82,7 +103,7 @@ function CertCard({ cert, index }) {
         rel="noopener noreferrer"
         className="bg-white dark:bg-dark-800/50 rounded-2xl border border-dark-100 dark:border-dark-700 overflow-hidden hover:shadow-xl hover:border-primary-300 dark:hover:border-primary-600 transition-all h-full flex flex-col items-center text-center p-8">
         <div className="mb-4">
-          <AzureLogo />
+          <CertLogo provider={cert.provider} />
         </div>
         <span className="px-3 py-1 text-xs font-bold bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 rounded-full mb-4">
           {cert.badge}
