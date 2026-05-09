@@ -88,7 +88,7 @@ export const projects = [
     description:
       "Production-grade lakehouse on Databricks (GCP) with Medallion architecture, built both imperative notebooks vs. declarative Lakeflow pipelines on Olist e-commerce data.",
     github: "https://github.com/aliyusifov99/olist-lakehouse",
-    tags: ["Databricks", "Delta Lake", "Medallion Architecture"],
+    tags: ["Databricks", "Delta Lake", "Medallion Architecture", "Google Cloud Platform"],
   },
   {
     title: "Multi-Agent Air Quality Monitoring System",
