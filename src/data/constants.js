@@ -83,6 +83,14 @@ export const skillCategories = [
 
 export const projects = [
   {
+    title: "Olist Lakehouse on Databricks",
+    slug: "olist-lakehouse-databricks",
+    description:
+      "Production-grade lakehouse on Databricks (GCP) with Medallion architecture, built both imperative notebooks vs. declarative Lakeflow pipelines on Olist e-commerce data.",
+    github: "https://github.com/aliyusifov99/olist-lakehouse",
+    tags: ["Databricks", "Delta Lake", "Medallion Architecture"],
+  },
+  {
     title: "Multi-Agent Air Quality Monitoring System",
     slug: "multi-agent-air-quality-monitoring-system",
     description:
