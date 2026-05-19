@@ -20,20 +20,22 @@ export default function Contact() {
     setStatus(null);
 
     try {
-      const res = await fetch(`https://formsubmit.co/ajax/${personalInfo.email}`, {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
         body: JSON.stringify({
+          access_key: "f26e8aee-b859-4ee1-8ce1-524472f517f2",
           name: formData.name,
           email: formData.email,
           message: formData.message,
         }),
       });
 
-      if (res.ok) {
+      const data = await res.json();
+      if (data.success) {
         setStatus("success");
         setFormData({ name: "", email: "", message: "" });
       } else {
