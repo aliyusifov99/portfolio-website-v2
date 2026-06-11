@@ -60,9 +60,14 @@ export const skillCategories = [
     skills: ["NumPy", "Pandas", "SciPy", "statsmodels", "Scikit-learn", "A/B Testing", "sktime", "Selenium"],
   },
   {
-    name: "Machine Learning & AI",
+    name: "Machine Learning",
     icon: "Brain",
     skills: ["XGBoost", "LightGBM", "TensorFlow", "Regression", "Classification", "Clustering", "Hyperparameter Optimization", "NLTK", "spaCy"],
+  },
+  {
+    name: "Agentic AI",
+    icon: "Bot",
+    skills: ["OpenAI Agents SDK", "CrewAI", "LangGraph", "AutoGen", "MCP"],
   },
   {
     name: "Data Visualization",
