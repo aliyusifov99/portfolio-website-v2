@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/ali-yusifov/",
   github: "https://github.com/aliyusifov99",
   resume:
-    "https://1drv.ms/b/c/44fa59118ee191df/IQDfkeGOEVn6IIBE7zwAAAAAAd627twzVe2ZwnuGFmku0qA?e=XtNvNv",
+    "https://drive.google.com/file/d/13M-KiTzm6FkZW-bbWfUzlAPUiVJztGTd/view?usp=sharing",
 };
 
 export const experiences = [
