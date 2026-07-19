@@ -3,7 +3,6 @@ export const personalInfo = {
   title: "Data Engineer & AI Enthusiast",
   location: "Krakow, Poland",
   email: "ali.yusifov.work@gmail.com",
-  phone: "(+48) 572 013 807",
   linkedin: "https://www.linkedin.com/in/ali-yusifov/",
   github: "https://github.com/aliyusifov99",
   resume:

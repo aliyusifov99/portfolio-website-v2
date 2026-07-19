@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Phone, Send, CheckCircle, AlertCircle } from "lucide-react";
+import { Mail, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { useReveal } from "../hooks/useReveal";
 import { personalInfo } from "../data/constants";
 
@@ -77,18 +77,6 @@ export default function Contact() {
                 >
                   {personalInfo.email}
                 </a>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4 p-4 rounded-xl bg-dark-50 dark:bg-dark-800/50">
-              <div className="p-3 rounded-lg bg-primary-100 dark:bg-primary-900/30">
-                <Phone size={20} className="text-primary-500" />
-              </div>
-              <div>
-                <p className="text-sm text-dark-400 dark:text-dark-500">Phone</p>
-                <p className="text-dark-800 dark:text-dark-200 font-medium">
-                  {personalInfo.phone}
-                </p>
               </div>
             </div>
 
