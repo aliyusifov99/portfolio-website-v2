@@ -87,6 +87,14 @@ export const skillCategories = [
 
 export const projects = [
   {
+    title: "DataOps Incident Agent",
+    slug: "dataops-incident-manager",
+    description:
+      "AI agent that diagnoses failed Airflow tasks through read-only MCP tools and produces evidence-bound incident reports.",
+    github: "https://github.com/aliyusifov99/dataops-incident-agent",
+    tags: ["Agentic AI", "MCP", "Airflow", "PySpark", "FastAPI"],
+  },
+  {
     title: "Olist Lakehouse on Databricks",
     slug: "olist-lakehouse-databricks",
     description:
