@@ -46,37 +46,37 @@ export const skillCategories = [
   {
     name: "Programming & Software Development",
     icon: "Code2",
-    skills: ["Python", "R", "SQL", "SAS", "OOP", "FastAPI"],
+    skills: ["Python", "SQL", "SAS", "FastAPI"],
   },
   {
     name: "Data Engineering & Orchestration",
     icon: "Database",
-    skills: ["Apache Spark", "Databricks", "Apache Airflow", "Apache Hadoop", "Prophecy", "Delta Lake", "dbt"],
+    skills: ["Apache Spark", "Apache Airflow", "Apache Hadoop", "Databricks", "Prophecy", "Delta Lake", "dbt"],
   },
   {
     name: "Data Analysis & Statistical Methods",
     icon: "BarChart3",
-    skills: ["NumPy", "Pandas", "SciPy", "statsmodels", "Scikit-learn", "A/B Testing", "sktime", "Selenium"],
+    skills: ["NumPy", "Pandas", "Scikit-learn", "A/B Testing"],
   },
   {
     name: "Machine Learning",
     icon: "Brain",
-    skills: ["XGBoost", "LightGBM", "TensorFlow", "Regression", "Classification", "Clustering", "Hyperparameter Optimization", "NLTK", "spaCy"],
+    skills: ["Regression", "Classification", "Clustering", "Hyperparameter Optimization"],
   },
   {
     name: "Agentic AI",
     icon: "Bot",
-    skills: ["OpenAI Agents SDK", "CrewAI", "LangGraph", "AutoGen", "MCP"],
+    skills: ["OpenAI Agents SDK", "MCP"],
   },
   {
     name: "Data Visualization",
     icon: "LineChart",
-    skills: ["Power BI", "Tableau", "Matplotlib", "Plotly", "Seaborn"],
+    skills: ["Power BI", "Matplotlib", "Plotly", "Seaborn"],
   },
   {
     name: "MLOps & Version Control",
     icon: "GitBranch",
-    skills: ["Git", "GitLab", "MLFlow", "DVC", "Hydra"],
+    skills: ["Git", "GitLab", "MLFlow", "DVC"],
   },
   {
     name: "Cloud & Infrastructure",
