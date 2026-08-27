@@ -191,6 +191,13 @@ export const education = [
 
 export const certifications = [
   {
+    name: "Databricks Certified Generative AI Engineer Associate",
+    date: "August 2026",
+    badge: "GenAI Associate",
+    provider: "databricks",
+    url: "https://credentials.databricks.com/b8a6699a-142e-4865-a126-1fbb1097d355",
+  },
+  {
     name: "Databricks Certified Data Engineer Associate",
     date: "April 2026",
     badge: "DE Associate",
